@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="mfus" transaction-type="JTA" >
+		<class>com.example.sp.demo.entity.AcStudent</class>
+		<class>com.example.sp.demo.entity.AcUser</class>
+		<class>com.example.sp.demo.entity.RftDistrict</class>
+		<class>com.example.sp.demo.entity.RftMajor</class>
+		<class>com.example.sp.demo.entity.RftProvince</class>
+		<class>com.example.sp.demo.entity.RftSchool</class>
+		<class>com.example.sp.demo.entity.RftSubDistrict</class>
+		<class>com.example.sp.demo.entity.RftTitleName</class>
+		<class>com.example.sp.demo.entity.SmSponsor</class>
+	</persistence-unit>
+</persistence>
